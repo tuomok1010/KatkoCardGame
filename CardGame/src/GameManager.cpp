@@ -85,7 +85,15 @@ void GameManager::ProcessInstructionsMenu()
 
 	std::cout
 		<< std::left << std::setw(20) << " " << "~ The Rules of Katko ~" << std::right << std::setw(20) << " \n\n"
-		<< std::left << std::setw(20) << " " << "Sorry, too lazy to type. Here you go:\n"
+		<< std::left << std::setw(20) << " " << "Ace is the highest card(14). 2 is the lowest. Uses a standard 52 card deck.\n"
+		<< std::left << std::setw(20) << " " << "Everyone gets 5 cards initially. The player next to the dealer begins.\n"
+		<< std::left << std::setw(20) << " " << "The player who begins decides which suit is played. Other players must\n"
+		<< std::left << std::setw(20) << " " << "play the same suit if they have any. Otherwise they can play any card.\n"
+		<< std::left << std::setw(20) << " " << "After everyone has played a card, whoever played the highest card of the same suit\n"
+		<< std::left << std::setw(20) << " " << "will get the next turn and gets to choose the next suit to play.\n"
+		<< std::left << std::setw(20) << " " << "When players only have 1 card left, the player that plays the highest card wins and gets a point.\n\n"
+		<< std::left << std::setw(20) << " " << "This is a multiplayer game played with a shared screen! When it is a player's turn, everyone\n"
+		<< std::left << std::setw(20) << " " << "else should look away from the screen! Fancy isn't it ;) \n"
 		<< std::left << std::setw(20) << " " << "https://fi.wikipedia.org/wiki/Katko_(korttipeli) \n\n\n"
 		<< std::left << std::setw(20) << " " << "Press enter to return to main menu " << std::flush;
 
